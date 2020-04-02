@@ -7,3 +7,4 @@ You can either call the script directly or set it to crontab for continuous moni
 Example of output
 --------------------
 ![](https://raw.githubusercontent.com/swifty94/jboss-health/master/result.gif)
+
