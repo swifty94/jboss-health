@@ -32,6 +32,7 @@ export JAVA_THREADS=`ps -eLf | grep -c jboss| grep -v grep`
 
 #export ORACLE_DB_PORT=`netstat -na | grep 1521 | grep -v grep | grep -ic est`
 export MYSQL_DB_PORT=`netstat -na | grep 3306 | grep -v grep | grep -ic est`
+# comment / uncomment if application using ClickHouse 
 export QOE_DB_PORT=`netstat -na | grep 8123| grep -v grep | grep -ic est`
 
 export RAM=`free -m|grep Mem`
